@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NotGhostXD - Live Subscriber Count</title>
+    <style>
+        /* Style for the hover effect */
+        .sub-count-container {
+            display: inline-block;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .sub-count-container:hover {
+            transform: scale(1.05); /* Slight enlargement on hover */
+        }
+    </style>
 </head>
 <body style="font-family: Arial, sans-serif; text-align: center; background-color: #1f1f29; color: white; padding: 20px;">
     
     <h1>Live Subscriber Count</h1>
     
-    <!-- Embed Live Subscriber Count with Rounded Corners -->
-    <iframe height="80px" width="300px" frameborder="0" 
-            src="https://livecounts.io/embed/youtube-live-subscriber-counter/UC3ATm-9Sz5090g49I_K1H6w" 
-            style="border: 0; width:300px; height:80px; border-radius: 10px; overflow: hidden;">
-    </iframe>
+    <!-- Clickable Container for Live Subscriber Count with Rounded Corners and Hover Effect -->
+    <div class="sub-count-container" onclick="window.open('https://www.youtube.com/@notghostxd', '_blank')">
+        <iframe height="80px" width="300px" frameborder="0" 
+                src="https://livecounts.io/embed/youtube-live-subscriber-counter/UC3ATm-9Sz5090g49I_K1H6w" 
+                style="border: 0; width:300px; height:80px; border-radius: 10px; overflow: hidden;">
+        </iframe>
+    </div>
     
     <p>Follow my live subscriber count!</p>
 

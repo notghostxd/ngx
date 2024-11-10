@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotGhostXD - Live Subscriber Count</title>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; background-color: #1f1f29; color: white; padding: 20px;">
+    
+    <h1>Live Subscriber Count</h1>
+    
+    <!-- Embed Social Blade Live Subscriber Count -->
+    <iframe width="600" height="300" src="https://socialblade.com/youtube/channel/UC3ATm-9Sz5090g49I_K1H6w/realtime" frameborder="0" allowfullscreen></iframe>
+    
+    <p>Follow my live subscriber count!</p>
+
+</body>
+</html>

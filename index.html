@@ -26,6 +26,25 @@
         .subscribe-link:hover {
             transform: scale(1.1); /* Slight enlargement on hover */
         }
+
+        /* Style for the Live Sub Count button */
+        .subcount-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background-color: orange;
+            border: 2px solid white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .subcount-button:hover {
+            background-color: #ff9900; /* Darker orange on hover */
+            transform: scale(1.05); /* Slight enlargement on hover */
+        }
     </style>
 </head>
 <body style="font-family: Arial, sans-serif; text-align: center; background-color: #1f1f29; color: white; padding: 20px;">
@@ -47,6 +66,13 @@
     <p style="margin-top: 20px;">
         <a href="https://www.youtube.com/@notghostxd" target="_blank" class="subscribe-link">
             Subscribe to my YouTube channel!
+        </a>
+    </p>
+
+    <!-- Live Sub Count Button -->
+    <p>
+        <a href="https://notghostxd.github.io/ngx/Live-SubCount" target="_self" class="subcount-button">
+            Live Sub Count
         </a>
     </p>
 

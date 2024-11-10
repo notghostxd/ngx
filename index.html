@@ -8,11 +8,11 @@
     <style>
         /* Style for the circular profile image */
         .profile-image {
-            width: 150px; /* Adjust size if needed */
+            width: 150px;
             height: 150px;
-            border-radius: 50%; /* Creates a circular effect */
+            border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 20px; /* Adds space below the image */
+            margin-bottom: 20px;
         }
 
         /* Hover effect for the subscribe link */
@@ -24,26 +24,41 @@
         }
 
         .subscribe-link:hover {
-            transform: scale(1.1); /* Slight enlargement on hover */
+            transform: scale(1.1);
         }
 
         /* Style for the Live Sub Count button */
-        .subcount-button {
+        .subcount-button, .contact-button {
             display: inline-block;
             padding: 10px 20px;
             color: white;
-            background-color: orange;
             border: 2px solid white;
             border-radius: 5px;
             text-decoration: none;
             font-weight: bold;
             transition: background-color 0.3s ease, transform 0.3s ease;
             margin-top: 20px;
+            margin-right: 10px; /* Add space between buttons */
+        }
+
+        .subcount-button {
+            background-color: orange;
         }
 
         .subcount-button:hover {
-            background-color: #ff9900; /* Darker orange on hover */
-            transform: scale(1.05); /* Slight enlargement on hover */
+            background-color: #ff9900;
+            transform: scale(1.05);
+        }
+
+        /* Style for the Contact Form button */
+        .contact-button {
+            background-color: purple;
+            border: 2px solid white;
+        }
+
+        .contact-button:hover {
+            background-color: #7d3fc9; /* Darker purple on hover */
+            transform: scale(1.05);
         }
     </style>
 </head>
@@ -69,10 +84,13 @@
         </a>
     </p>
 
-    <!-- Live Sub Count Button -->
+    <!-- Live Sub Count Button and Contact Form Button -->
     <p>
         <a href="https://notghostxd.github.io/ngx/Live-SubCount" target="_self" class="subcount-button">
             Live Sub Count
+        </a>
+        <a href="https://notghostxd.github.io/ngx/Contact" target="_self" class="contact-button">
+            Contact Form
         </a>
     </p>
 

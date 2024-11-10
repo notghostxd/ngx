@@ -4,8 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NotGhostXD - About Me</title>
-    <link rel="icon" type="image/png" href="imageee (2).png">
+    <link rel="icon" type="image/png" href="imageee (2).png"> <!-- Favicon for browser tab -->
     <style>
+        /* Style for the circular profile image */
+        .profile-image {
+            width: 150px; /* Adjust size if needed */
+            height: 150px;
+            border-radius: 50%; /* Creates a circular effect */
+            object-fit: cover;
+            margin-bottom: 20px; /* Adds space below the image */
+        }
+
         /* Hover effect for the subscribe link */
         .subscribe-link {
             color: #ff0000;
@@ -15,11 +24,14 @@
         }
 
         .subscribe-link:hover {
-            transform: scale(1.1);
+            transform: scale(1.1); /* Slight enlargement on hover */
         }
     </style>
 </head>
 <body style="font-family: Arial, sans-serif; text-align: center; background-color: #1f1f29; color: white; padding: 20px;">
+
+    <!-- Circular Profile Image -->
+    <img src="notghost2_pfp.png" alt="Profile Picture" class="profile-image">
 
     <h1>Welcome to NotGhostXD's Page!</h1>
 
